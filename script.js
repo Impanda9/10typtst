@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       localStorage.setItem("CorrectWords", correctWords);
       localStorage.setItem("Accuracy", Math.round((correctWords / wordsCount) * 100));
   
-      window.location.href = "10.SCut.html";
+      window.location.href = "https://impanda9.github.io/results/";
     };
   
     const accuracy = (str1, str2) => {
