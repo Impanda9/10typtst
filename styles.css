@@ -1,0 +1,104 @@
+body {
+    background-image: url('ktn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-height: 40%;
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #050101;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #c7b7b79d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-weight: bold;
+    font-family: 'Kufam', cursive;
+    color: #050101;
+    margin-bottom: 20px;
+  }
+  
+  #message {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #050101;
+  }
+  
+  #text {
+    font-size: 20px;
+    width: 1500px;
+    height: 30vh;
+    background-color: #050101;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  textarea:focus {
+    animation: border-color-change;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  .btn {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #95ff0a9f;
+    color: #050101;
+  }
+  
+  #result {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #050101;
+    text-align: center;
+  }
+  
+  #result h4 {
+    color: #050101;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .timer-label {
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 10px;
+    color: #050101;
+  }
+  
+  .timer-value {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+  }
+  
